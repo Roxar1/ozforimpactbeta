@@ -1,3 +1,7 @@
 module.exports = {
-  testDB: require('./testModel'),
+    visitorDB: require("./visitorModel"),
+    countDB: require("./countModel"),
+    testDB: require("./testModel"),
+    earthDB: require("./earthModel"),
+    userDB: require("./userModel")
 };
